@@ -18,12 +18,15 @@ interceptaciones, especialmente en redes públicas.
 
 ## Tecnologías utilizadas
 - Tailscale (VPN de malla basada en WireGuard)
-- Headscale: es un servidor de control open-source compatible con Tailscale, permite gestionar una red VPN de malla
 - Protocolo VPN: WireGuard
 - Cifrado: ChaCha20-Poly1305
 - Autenticación: OAuth (Google / GitHub)
 - Sistemas operativos: Windows, Linux
 - Control de versiones: Git y GitHub
+
+## Headscale
+Headscale es un servidor de control open-source compatible con Tailscale.
+Permite gestionar una red VPN de malla
 
 ## Funcionamiento
 1. El usuario se conecta al servidor VPN
