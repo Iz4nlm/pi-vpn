@@ -33,6 +33,7 @@ Permite gestionar una red VPN de malla
 2. Se establece un túnel cifrado
 3. El tráfico de red pasa por el servidor VPN
 4. La IP real queda oculta y los datos viajan cifrados
+5. Los usuarios pueden enviar archivos unos a otros usando tailscale
 
 ## Uso
 Este proyecto es únicamente educativo.
