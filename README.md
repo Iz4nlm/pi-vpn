@@ -24,16 +24,6 @@ interceptaciones, especialmente en redes públicas.
 - Sistemas operativos: Windows, Linux
 - Control de versiones: Git y GitHub
 
-## Headscale
-Headscale es un servidor de coordinación open-source compatible con Tailscale
-que permite la autogestión de una red VPN de malla basada en WireGuard.
-
-Su función principal es gestionar la autenticación, autorización y coordinación
-de los nodos de la red. 
-
-El tráfico de red no pasa por Headscale, sino que se establece directamente entre los dispositivos mediante túneles cifrados
-WireGuard, garantizando cifrado de extremo a extremo y baja latencia.
-
 ## Funcionamiento
 1. El usuario se conecta al servidor VPN
 2. Se establece un túnel cifrado
