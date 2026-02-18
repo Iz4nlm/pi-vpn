@@ -12,7 +12,7 @@ services:
       - /home/ubuntu/docker/headscale/data:/var/lib/headscale
     labels:
       - traefik.enable=true
-      - traefik.http.routers.headscale-rtr.rule=PathPrefix(`/`) # you might want to add: && Host(`your.domain.name`)"
+      - traefik.http.routers.headscale-rtr.rule=PathPrefix(`/`) 
       - traefik.http.services.headscale-svc.loadbalancer.server.port=8080
 
   headscale-ui:
@@ -22,5 +22,5 @@ services:
     restart: unless-stopped
     labels:
       - traefik.enable=true
-      - traefik.http.routers.headscale-ui-rtr.rule=PathPrefix(`/web`) # you might want to add: && Host(`your.domain.name`)"
+      - traefik.http.routers.headscale-ui-rtr.rule=PathPrefix(`/web`) 
       - traefik.http.services.headscale-ui-svc.loadbalancer.server.port=80
