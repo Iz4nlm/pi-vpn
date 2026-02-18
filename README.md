@@ -41,9 +41,6 @@ WireGuard, garantizando cifrado de extremo a extremo y baja latencia.
 4. La IP real queda oculta y los datos viajan cifrados
 5. Los usuarios pueden enviar archivos unos a otros usando tailscale
 
-## Uso
-Este proyecto es únicamente educativo.
-No incluye una VPN comercial ni un servicio activo.
 
 ## Seguridad y limitaciones
 - Una VPN no garantiza anonimato total
